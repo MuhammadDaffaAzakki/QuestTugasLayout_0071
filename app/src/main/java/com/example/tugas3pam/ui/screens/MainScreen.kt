@@ -89,3 +89,28 @@ fun MainScreen(modifier: Modifier = Modifier) {
                     nimColor = colorResource(R.color.card_text_cyan),
                     alamatColor = colorResource(R.color.card_text_yellow)
                 )
+
+                // Card 3
+                ProfileCard(
+                    name = stringResource(R.string.card3_name),
+                    nim = stringResource(R.string.card3_nim),
+                    alamat = stringResource(R.string.card3_alamat),
+                    backgroundColor = colorResource(R.color.card3_bg_color),
+                    nameFontWeight = FontWeight.Bold,
+                    nameColor = colorResource(R.color.card_text_white),
+                    nimColor = colorResource(R.color.card_text_cyan),
+                    alamatColor = colorResource(R.color.card_text_cyan)
+                )
+
+                // Card 4
+                ProfileCard(
+                    name = stringResource(R.string.card4_name),
+                    nim = stringResource(R.string.card4_nim),
+                    alamat = stringResource(R.string.card4_alamat),
+                    backgroundColor = colorResource(R.color.card4_bg_color),
+                    nameFontWeight = FontWeight.Bold,
+                    nameColor = colorResource(R.color.card_text_white),
+                    nimColor = colorResource(R.color.card_text_cyan),
+                    alamatColor = colorResource(R.color.card_text_white)
+                )
+            }
