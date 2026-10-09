@@ -63,6 +63,21 @@ fun ProfileCard(
                     .size(56.dp)
                     .clip(CircleShape)
             )
+
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 8.dp)
+            ) {
+                Text(
+                    text = name,
+                    fontSize = 18.sp,
+                    fontWeight = nameFontWeight,
+                    fontStyle = nameFontStyle,
+                    color = nameColor,
+                    textAlign = TextAlign.Center
+                )
         }
     }
 }
