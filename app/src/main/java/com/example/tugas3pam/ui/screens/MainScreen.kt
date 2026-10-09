@@ -59,3 +59,33 @@ fun MainScreen(modifier: Modifier = Modifier) {
                     textAlign = TextAlign.Center
                 )
             }
+
+            // Cards Section
+            Column(
+                verticalArrangement = Arrangement.spacedBy(16.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.weight(1f, fill = false)
+            ) {
+                // Card 1
+                ProfileCard(
+                    name = stringResource(R.string.card1_name),
+                    nim = stringResource(R.string.card1_nim),
+                    alamat = stringResource(R.string.card1_alamat),
+                    backgroundColor = colorResource(R.color.card1_bg_color),
+                    nameFontWeight = FontWeight.Bold,
+                    nameColor = colorResource(R.color.card_text_white),
+                    nimColor = colorResource(R.color.card_text_cyan),
+                    alamatColor = colorResource(R.color.card_text_yellow)
+                )
+
+                // Card 2
+                ProfileCard(
+                    name = stringResource(R.string.card2_name),
+                    nim = stringResource(R.string.card2_nim),
+                    alamat = stringResource(R.string.card2_alamat),
+                    backgroundColor = colorResource(R.color.card2_bg_color),
+                    nameFontWeight = FontWeight.Bold,
+                    nameColor = colorResource(R.color.card_text_white),
+                    nimColor = colorResource(R.color.card_text_cyan),
+                    alamatColor = colorResource(R.color.card_text_yellow)
+                )
