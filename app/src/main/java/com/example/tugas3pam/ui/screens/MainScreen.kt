@@ -114,3 +114,18 @@ fun MainScreen(modifier: Modifier = Modifier) {
                     alamatColor = colorResource(R.color.card_text_white)
                 )
             }
+
+            Spacer(modifier = Modifier.height(24.dp))
+
+            // Footer Section
+            Text(
+                text = stringResource(R.string.footer_text),
+                fontSize = 12.sp,
+                fontWeight = FontWeight.Normal,
+                color = colorResource(R.color.footer_text_color),
+                textAlign = TextAlign.Center,
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+        }
+    }
+}
