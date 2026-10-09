@@ -13,4 +13,14 @@
     <string name="card2_name">Farhan Kebab</string>
     <string name="card2_nim">20240140102</string>
     <string name="card2_alamat">Dubai, UEA</string>
+
+    <!-- Card 3 -->
+    <string name="card3_name">Harits Adha</string>
+    <string name="card3_nim">20240140073</string>
+    <string name="card3_alamat">Bekasi, Indonesia</string>
+
+    <!-- Card 4 -->
+    <string name="card4_name">Fathur tur tur</string>
+    <string name="card4_nim">2024014001</string>
+    <string name="card4_alamat">Sumedang, Indonesia</string>
 </resources>
