@@ -95,14 +95,15 @@ fun ProfileCard(
                     textAlign = TextAlign.Center,
                     modifier = Modifier.padding(top = 2.dp)
                 )
-                Image(
-                    painter = painterResource(id = logoResId),
-                    contentDescription = stringResource(id = R.string.logo_umy_description),
-                    modifier = Modifier
-                        .size(56.dp)
-                        .clip(CircleShape)
-                )
             }
+
+            Image(
+                painter = painterResource(id = logoResId),
+                contentDescription = stringResource(id = R.string.logo_umy_description),
+                modifier = Modifier
+                    .size(56.dp)
+                    .clip(CircleShape)
+            )
         }
     }
 }
