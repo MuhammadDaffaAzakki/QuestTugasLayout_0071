@@ -70,7 +70,7 @@ fun ProfileCard(
                     .weight(1f)
                     .padding(horizontal = 8.dp)
             ) {
-                Text(
+            Text(
                     text = name,
                     fontSize = 18.sp,
                     fontWeight = nameFontWeight,
@@ -78,6 +78,25 @@ fun ProfileCard(
                     color = nameColor,
                     textAlign = TextAlign.Center
                 )
+            if (nim != null) {
+                    Text(
+                    text = nim,
+                    fontSize = 13.sp,
+                    color = nimColor,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.padding(top = 2.dp)
+                    )
+                }
+
+            Text(
+                    text = alamat,
+                    fontSize = 13.sp,
+                    color = alamatColor,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.padding(top = 2.dp)
+                )
+            }
+
         }
     }
 }
