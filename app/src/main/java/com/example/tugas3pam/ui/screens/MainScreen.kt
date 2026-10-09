@@ -29,4 +29,13 @@ fun MainScreen(modifier: Modifier = Modifier) {
         modifier = modifier.fillMaxSize(),
         containerColor = colorResource(R.color.screen_background)
     ) { innerPadding ->
-        
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding)
+                .padding(horizontal = 20.dp, vertical = 16.dp)
+                .verticalScroll(rememberScrollState()),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.SpaceBetween
+        ) {
+
